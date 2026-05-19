@@ -1,0 +1,684 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jheniffer — Lash Designer | Alongamento de Cílios</title>
+    <meta
+      name="description"
+      content="Especialista em alongamento de cílios. Volume Brasileiro, Luxo, Power e Egípcio. Agende pelo WhatsApp!"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- LOADER -->
+    <div class="loader" id="loader">
+      <div class="loader-content">
+        <span class="loader-logo">JS</span>
+        <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+      </div>
+    </div>
+
+    <!-- WHATSAPP FLUTUANTE -->
+    <a
+      href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20%F0%9F%92%95"
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener"
+      aria-label="Agendar via WhatsApp"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="whatsapp-tooltip">Agende agora!</span>
+    </a>
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <div class="container header-inner">
+        <a href="#" class="logo">
+          <span class="logo-icon">JS</span>
+          <div class="logo-text">
+            <span class="logo-name">Jheniffer</span>
+            <span class="logo-sub">Lash Designer</span>
+          </div>
+        </a>
+
+        <nav class="nav" id="nav">
+          <ul class="nav-list">
+            <li><a href="#inicio" class="nav-link active">Início</a></li>
+            <li><a href="#sobre" class="nav-link">Sobre</a></li>
+            <li><a href="#servicos" class="nav-link">Tabela de Preços</a></li>
+            <li><a href="#galeria" class="nav-link">Galeria</a></li>
+            <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+            <li><a href="#contato" class="nav-link">Contato</a></li>
+          </ul>
+          <button class="nav-close" id="navClose" aria-label="Fechar menu">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </nav>
+
+        <a
+          href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20%F0%9F%92%95"
+          class="btn btn--gold header-btn"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="fa-brands fa-whatsapp"></i> Agendar
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero-bg"><div class="hero-bg-overlay"></div></div>
+      <div class="container hero-content">
+        <span class="hero-badge">✨ Lash Designer Especializada</span>
+        <h1 class="hero-title">
+          Realce o seu<br /><span class="hero-title-accent">olhar</span> com
+          <span class="hero-title-accent">elegância</span>
+        </h1>
+        <p class="hero-description">
+          No <strong>Jheniffer Lash Designer</strong>, cada olhar é
+          tratado como único. Técnicas exclusivas, produtos premium e um
+          atendimento pensado para você se sentir especial do início ao fim.
+        </p>
+        <div class="hero-buttons">
+          <a
+            href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20%F0%9F%92%95"
+            class="btn btn--gold btn--lg"
+            target="_blank"
+            rel="noopener"
+          >
+            <i class="fa-brands fa-whatsapp"></i> Agendar pelo WhatsApp
+          </a>
+          <a href="#servicos" class="btn btn--outline btn--lg">
+            Ver Tabela <i class="fa-solid fa-arrow-down"></i>
+          </a>
+        </div>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span>Role para baixo</span>
+        <div class="hero-scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section about" id="sobre">
+      <div class="container about-grid">
+        <div class="about-image">
+          <div class="about-image-wrapper">
+            <div class="about-image-placeholder">
+              <i class="fa-solid fa-user"></i><span>Foto da Jheniffer</span>
+            </div>
+            <div class="about-image-decoration"></div>
+          </div>
+          <div class="about-experience-badge">
+            <span class="about-exp-number">1+</span
+            ><span class="about-exp-text">Anos de<br />experiência</span>
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="section-badge">Sobre Mim</span>
+          <h2 class="section-title">
+            Olá, sou a <span class="highlight">Jheniffer da Silva</span>
+          </h2>
+          <p class="about-text">
+            Apaixonada pela arte de realçar olhares há mais de 1 ano, dedico
+            cada atendimento a entregar não apenas cílios perfeitos, mas uma
+            experiência completa de cuidado e autoestima.
+          </p>
+          <p class="about-text">
+            Trabalho com as técnicas mais modernas do mercado, incluindo Volume
+            Brasileiro, Luxo, Power e Egípcio, utilizando materiais de alta
+            qualidade e hipoalergênicos.
+          </p>
+          <div class="about-features">
+            <div class="about-feature">
+              <i class="fa-solid fa-gem"></i>
+              <div>
+                <h4>Materiais Premium</h4>
+                <p>Produtos importados e certificados</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <i class="fa-solid fa-heart"></i>
+              <div>
+                <h4>Ambiente Acolhedor</h4>
+                <p>Espaço pensado para seu conforto</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <i class="fa-solid fa-shield-halved"></i>
+              <div>
+                <h4>Biossegurança</h4>
+                <p>Materiais descartáveis e esterilizados</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <i class="fa-solid fa-award"></i>
+              <div>
+                <h4>Certificações</h4>
+                <p>Formação contínua e atualizada</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS - TABELA DE PREÇOS -->
+    <section class="section services" id="servicos">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-badge">Tabela de Preços</span>
+          <h2 class="section-title">
+            Escolha o serviço ideal<br />para o
+            <span class="highlight">seu olhar</span>
+          </h2>
+          <p class="section-description">
+            Todos os valores incluem avaliação personalizada. Agende pelo
+            WhatsApp!
+          </p>
+        </div>
+
+        <!-- ALONGAMENTOS -->
+        <div class="pricing-section">
+          <h3 class="pricing-category">
+            <i class="fa-solid fa-sparkles"></i> Alongamentos
+          </h3>
+          <div class="services-grid">
+            <!-- Volume Brasileiro -->
+            <div class="service-card" data-aos="fade-up">
+              <div class="service-card-icon">
+                <i class="fa-solid fa-feather"></i>
+              </div>
+              <h3 class="service-card-title">Volume Brasileiro</h3>
+              <p class="service-card-desc">
+                Técnica que valoriza o olhar de forma natural e elegante,
+                perfeita para o dia a dia.
+              </p>
+              <ul class="service-card-features">
+                <li><i class="fa-solid fa-check"></i> Duração: 1h30 a 2h</li>
+                <li><i class="fa-solid fa-check"></i> Retorno: 15 a 20 dias</li>
+                <li><i class="fa-solid fa-check"></i> Resultado natural</li>
+              </ul>
+              <div class="service-card-price">
+                <span class="service-card-price-label">Investimento</span>
+                <span class="service-card-price-value">R$ 110</span>
+              </div>
+              <a
+                href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Quero%20agendar%20Volume%20Brasileiro%20%F0%9F%92%95"
+                class="btn btn--card"
+                target="_blank"
+                ><i class="fa-brands fa-whatsapp"></i> Agendar Agora</a
+              >
+            </div>
+
+            <!-- Volume Luxo -->
+            <div class="service-card" data-aos="fade-up">
+              <div class="service-card-icon">
+                <i class="fa-solid fa-crown"></i>
+              </div>
+              <h3 class="service-card-title">Volume Luxo</h3>
+              <p class="service-card-desc">
+                Mais volume e densidade para um olhar marcante e sofisticado.
+              </p>
+              <ul class="service-card-features">
+                <li><i class="fa-solid fa-check"></i> Duração: 2h a 2h30</li>
+                <li><i class="fa-solid fa-check"></i> Retorno: 15 a 20 dias</li>
+                <li><i class="fa-solid fa-check"></i> Efeito volumoso</li>
+              </ul>
+              <div class="service-card-price">
+                <span class="service-card-price-label">Investimento</span>
+                <span class="service-card-price-value">R$ 120</span>
+              </div>
+              <a
+                href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Quero%20agendar%20Volume%20Luxo%20%F0%9F%92%95"
+                class="btn btn--card"
+                target="_blank"
+                ><i class="fa-brands fa-whatsapp"></i> Agendar Agora</a
+              >
+            </div>
+
+            <!-- Volume Power -->
+            <div class="service-card service-card--featured" data-aos="fade-up">
+              <div class="service-card-badge">⭐ Popular</div>
+              <div class="service-card-icon">
+                <i class="fa-solid fa-bolt"></i>
+              </div>
+              <h3 class="service-card-title">Volume Power</h3>
+              <p class="service-card-desc">
+                Máximo volume e impacto! Ideal para quem deseja um olhar
+                dramático e poderoso.
+              </p>
+              <ul class="service-card-features">
+                <li><i class="fa-solid fa-check"></i> Duração: 2h30 a 3h</li>
+                <li><i class="fa-solid fa-check"></i> Retorno: 15 a 20 dias</li>
+                <li><i class="fa-solid fa-check"></i> Efeito dramático</li>
+              </ul>
+              <div class="service-card-price">
+                <span class="service-card-price-label">Investimento</span>
+                <span class="service-card-price-value">R$ 125</span>
+              </div>
+              <a
+                href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Quero%20agendar%20Volume%20Power%20%F0%9F%92%95"
+                class="btn btn--gold btn--card"
+                target="_blank"
+                ><i class="fa-brands fa-whatsapp"></i> Agendar Agora</a
+              >
+            </div>
+
+            <!-- Volume Egípcio -->
+            <div class="service-card" data-aos="fade-up">
+              <div class="service-card-icon">
+                <i class="fa-solid fa-eye"></i>
+              </div>
+              <h3 class="service-card-title">Volume Egípcio</h3>
+              <p class="service-card-desc">
+                Técnica que alonga e eleva o canto externo, criando um olhar
+                felino e sensual.
+              </p>
+              <ul class="service-card-features">
+                <li><i class="fa-solid fa-check"></i> Duração: 2h30 a 3h</li>
+                <li><i class="fa-solid fa-check"></i> Retorno: 15 a 20 dias</li>
+                <li><i class="fa-solid fa-check"></i> Efeito gatinho</li>
+              </ul>
+              <div class="service-card-price">
+                <span class="service-card-price-label">Investimento</span>
+                <span class="service-card-price-value">R$ 130</span>
+              </div>
+              <a
+                href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Quero%20agendar%20Volume%20Eg%C3%ADpcio%20%F0%9F%92%95"
+                class="btn btn--card"
+                target="_blank"
+                ><i class="fa-brands fa-whatsapp"></i> Agendar Agora</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- MANUTENÇÕES -->
+        <div class="pricing-section">
+          <h3 class="pricing-category">
+            <i class="fa-solid fa-rotate"></i> Manutenções
+          </h3>
+          <p class="pricing-note">
+            * Manter seus cílios sempre impecáveis com retoques regulares
+          </p>
+          <div class="maintenance-grid">
+            <div class="maintenance-card">
+              <h4>Volume Brasileiro</h4>
+              <span class="maintenance-price">R$ 80</span>
+              <a
+                href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Quero%20agendar%20manuten%C3%A7%C3%A3o%20Volume%20Brasileiro%20%F0%9F%92%95"
+                class="btn-maintenance"
+                target="_blank"
+                >Agendar</a
+              >
+            </div>
+
+            <div class="maintenance-card">
+              <h4>Volume Luxo</h4>
+              <span class="maintenance-price">R$ 80</span>
+              <a
+                href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Quero%20agendar%20manuten%C3%A7%C3%A3o%20Volume%20Luxo%20%F0%9F%92%95"
+                class="btn-maintenance"
+                target="_blank"
+                >Agendar</a
+              >
+            </div>
+
+            <div class="maintenance-card">
+              <h4>Volume Power</h4>
+              <span class="maintenance-price">R$ 80</span>
+              <a
+                href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Quero%20agendar%20manuten%C3%A7%C3%A3o%20Volume%20Power%20%F0%9F%92%95"
+                class="btn-maintenance"
+                target="_blank"
+                >Agendar</a
+              >
+            </div>
+
+            <div class="maintenance-card maintenance-card--highlight">
+              <h4>Volume Egípcio</h4>
+              <span class="maintenance-price">R$ 85</span>
+              <a
+                href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Quero%20agendar%20manuten%C3%A7%C3%A3o%20Volume%20Eg%C3%ADpcio%20%F0%9F%92%95"
+                class="btn-maintenance"
+                target="_blank"
+                >Agendar</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="section gallery" id="galeria">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-badge">Galeria</span>
+          <h2 class="section-title">
+            Resultados que <span class="highlight">encantam</span>
+          </h2>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <div class="gallery-placeholder">
+              <i class="fa-solid fa-image"></i><span>Foto 1</span>
+            </div>
+          </div>
+          <div class="gallery-item gallery-item--wide">
+            <div class="gallery-placeholder">
+              <i class="fa-solid fa-image"></i><span>Foto 2</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-placeholder">
+              <i class="fa-solid fa-image"></i><span>Foto 3</span>
+            </div>
+          </div>
+          <div class="gallery-item gallery-item--wide">
+            <div class="gallery-placeholder">
+              <i class="fa-solid fa-image"></i><span>Foto 4</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-placeholder">
+              <i class="fa-solid fa-image"></i><span>Foto 5</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-placeholder">
+              <i class="fa-solid fa-image"></i><span>Foto 6</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section class="section testimonials" id="depoimentos">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-badge">Depoimentos</span>
+          <h2 class="section-title">
+            O que nossas <span class="highlight">clientes</span> dizem
+          </h2>
+        </div>
+        <div class="testimonials-slider" id="testimonialsSlider">
+          <div class="testimonials-track" id="testimonialsTrack">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "Simplesmente amei! A Jheniffer é incrível, super atenciosa e o
+                resultado ficou perfeito. Recomendo de olhos fechados!"
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">I</div>
+                <div>
+                  <span class="testimonial-name">Isabela</span
+                  ><span class="testimonial-role">Cliente há 4 meses</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "Ambiente lindo e acolhedor. A Jheniffer entende exatamente o
+                que a gente quer. Já sou cliente fiel!"
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">R</div>
+                <div>
+                  <span class="testimonial-name">Rafaela</span
+                  ><span class="testimonial-role">Cliente há 1 ano</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "Primeira vez fazendo extensão e a experiência foi maravilhosa.
+                Superou minhas expectativas!"
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">M</div>
+                <div>
+                  <span class="testimonial-name">Marisol</span
+                  ><span class="testimonial-role">Cliente há 6 meses</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials-controls">
+            <button
+              class="testimonials-btn"
+              id="testPrev"
+              aria-label="Anterior"
+            >
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="testimonials-dots" id="testDots"></div>
+            <button class="testimonials-btn" id="testNext" aria-label="Próximo">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" id="faq">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-badge">Dúvidas Frequentes</span>
+          <h2 class="section-title">
+            Perguntas <span class="highlight">Frequentes</span>
+          </h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Quanto tempo dura a extensão de cílios?</span
+              ><i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                A extensão dura em média de 15 a 21 dias. Recomendamos retoques
+                a cada 15 dias para manter o visual impecável.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>A aplicação dói?</span
+              ><i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Não! O processo é totalmente indolor. Você fica deitada
+                confortavelmente e pode até relaxar e dormir.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Posso usar maquiagem com extensão?</span
+              ><i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Sim! Porém, evite produtos à base de óleo. Use rímel oil-free
+                apenas nas pontas, se necessário.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Qual a forma de pagamento?</span
+              ><i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Aceitamos PIX e dinheiro</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section contact" id="contato">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <span class="section-badge">Contato</span>
+            <h2 class="section-title">
+              Vamos <span class="highlight">conversar?</span>
+            </h2>
+            <p class="contact-text">
+              Entre em contato para agendar seu horário ou tirar qualquer
+              dúvida. Estou pronta para transformar o seu olhar!
+            </p>
+            <div class="contact-items">
+              <div class="contact-item">
+                <i class="fa-brands fa-whatsapp"></i>
+                <div>
+                  <h4>WhatsApp</h4>
+                  <a href="https://wa.me/5511954868172" target="_blank"
+                    >(11) 95486-8172</a
+                  >
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fa-brands fa-instagram"></i>
+                <div>
+                  <h4>Instagram</h4>
+                  <a href="https://instagram.com/jhenifferlashh" target="_blank"
+                    >@jhenifferlashh</a
+                  >
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <h4>Localização</h4>
+                  <p>São Paulo - SP</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fa-solid fa-clock"></i>
+                <div>
+                  <h4>Horário</h4>
+                  <p>Seg a Sáb: 9h às 19h</p>
+                </div>
+              </div>
+            </div>
+            <a
+              href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20%F0%9F%92%95"
+              class="btn btn--gold btn--lg"
+              target="_blank"
+              rel="noopener"
+              ><i class="fa-brands fa-whatsapp"></i> Agendar pelo WhatsApp</a
+            >
+          </div>
+          <div class="contact-map">
+            <div class="map-placeholder">
+              <i class="fa-solid fa-map-location-dot"></i
+
+              ><small
+                ><iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.0356840519776!2d-46.7581570305032!3d-23.599213369727135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce55cee13be6ef%3A0xb71d3e342af5b12!2sjaqueline!5e0!3m2!1spt-BR!2sbr!4v1779149402512!5m2!1spt-BR!2sbr"
+                  width="600"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe
+              ></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <span class="logo-icon">JS</span>
+            <div class="logo-text">
+              <span class="logo-name">Jheniffer Silva</span
+              ><span class="logo-sub">Lash Designer</span>
+            </div>
+          </div>
+          <p class="footer-tagline">
+            Realçando olhares com amor, técnica e sofisticação.
+          </p>
+          <div class="footer-socials">
+            <a
+              href="https://instagram.com/jhenifferlashh"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://wa.me/5511954868172"
+              target="_blank"
+              rel="noopener"
+              aria-label="WhatsApp"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+            <a href="#" aria-label="TikTok"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 Jheniffer Silva Lash Designer. Todos os direitos
+            reservados.
+          </p>
+          <p class="footer-credit">
+            Feito com <i class="fa-solid fa-heart"></i> para realçar olhares
+          </p>
+        </div>
+      </div>
+    </footer>
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
