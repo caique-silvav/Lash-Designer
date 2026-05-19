@@ -2,7 +2,7 @@
 
 > Site institucional moderno, responsivo e otimizado para estúdio de alongamento de cílios. Foco em design sofisticado, experiência fluida e conversão direta via WhatsApp.
 
- **Live Demo:** [Acesse o site aqui](https://SEU-LINK-VERCEL-VERCEL)
+ **Live Demo:** [Acesse o site aqui](https://lash-designer-blue.vercel.app/)
 
 ---
 
