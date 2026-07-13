@@ -1511,3 +1511,85 @@ html.lenis {
     grid-template-columns: 1fr;
   }
 }
+
+/* ============================================
+   ESTILOS ADICIONAIS: SOBRANCELHAS E GALERIA BROWS
+   ============================================ */
+
+/* Seção Sobrancelhas */
+.eyebrows {
+  background: var(--color-white);
+}
+
+.brows-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.brow-card .service-card-icon {
+  background: var(
+    --color-rose-light
+  ); /* Cor diferente para diferenciar de cílios */
+}
+
+/* Galeria de Sobrancelhas */
+.gallery-brows {
+  padding: 60px 0;
+  background: var(--color-off-white);
+}
+
+.brows-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.brows-gallery .gallery-item {
+  position: relative;
+  aspect-ratio: 16/9; /* Formato retangular para sobrancelhas */
+  overflow: hidden;
+  border-radius: var(--radius-md);
+}
+
+.brows-gallery .gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.brows-gallery .gallery-item:hover .gallery-image {
+  transform: scale(1.05);
+}
+
+/* Legenda sobre a foto */
+.gallery-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  color: white;
+  padding: 20px;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: var(--transition);
+}
+
+.brows-gallery .gallery-item:hover .gallery-caption {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .brows-grid {
+    grid-template-columns: 1fr;
+  }
+  .brows-gallery {
+    grid-template-columns: 1fr;
+  }
+}

@@ -3,16 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jheniffer — Lash Designer | Alongamento de Cílios</title>
+    <title>Jheniffer — Lash & Brow Designer | Cílios e Sobrancelhas</title>
     <meta
       name="description"
-      content="Especialista em alongamento de cílios. Volume Brasileiro, Luxo, Power e Egípcio. Agende pelo WhatsApp!"
+      content="Especialista em Alongamento de Cílios e Design de Sobrancelhas. Agende seu horário."
     />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
     <link
@@ -49,7 +49,7 @@
           <span class="logo-icon">JS</span>
           <div class="logo-text">
             <span class="logo-name">Jheniffer</span>
-            <span class="logo-sub">Lash Designer</span>
+            <span class="logo-sub">Lash & Brow</span>
           </div>
         </a>
 
@@ -57,13 +57,14 @@
           <ul class="nav-list">
             <li><a href="#inicio" class="nav-link active">Início</a></li>
             <li><a href="#sobre" class="nav-link">Sobre</a></li>
-            <li><a href="#servicos" class="nav-link">Tabela de Preços</a></li>
+            <li><a href="#servicos" class="nav-link">Cílios</a></li>
+            <li><a href="#sobrancelhas" class="nav-link">Sobrancelhas</a></li>
             <li><a href="#galeria" class="nav-link">Galeria</a></li>
             <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
             <li><a href="#contato" class="nav-link">Contato</a></li>
           </ul>
-          <button class="nav-close" id="navClose" aria-label="Fechar menu">
-           
+          <button class="nav-close" id="navClose">
+            <i class="fa-solid fa-xmark"></i>
           </button>
         </nav>
 
@@ -71,46 +72,48 @@
           href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20%F0%9F%92%95"
           class="btn btn--gold header-btn"
           target="_blank"
-          rel="noopener"
         >
           <i class="fa-brands fa-whatsapp"></i> Agendar
         </a>
 
-        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" >
+        <button class="menu-toggle" id="menuToggle">
           <span></span><span></span><span></span>
         </button>
       </div>
     </header>
-
     <div class="menu-overlay" id="menuOverlay"></div>
 
     <!-- HERO -->
     <section class="hero" id="inicio">
       <div class="hero-bg"><div class="hero-bg-overlay"></div></div>
       <div class="container hero-content">
-        <span class="hero-badge">✨ Lash Designer Especializada</span>
+        <span class="hero-badge">✨ Lash & Brow Designer</span>
         <h1 class="hero-title">
           Realce o seu<br /><span class="hero-title-accent">olhar</span> com
           <span class="hero-title-accent">elegância</span>
         </h1>
         <p class="hero-description">
-          No <strong>Jheniffer Lash Designer</strong>, cada olhar é
-          tratado como único. Técnicas exclusivas, produtos premium e um
-          atendimento pensado para você se sentir especial do início ao fim.
+          No <strong>Jheniffer Lash & Brow Designer</strong>, cada olhar é
+          tratado como único. Técnicas exclusivas para cílios e sobrancelhas,
+          produtos premium e um atendimento pensado para você se sentir
+          especial.
         </p>
         <div class="hero-buttons">
           <a
             href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20%F0%9F%92%95"
             class="btn btn--gold btn--lg"
             target="_blank"
-            rel="noopener"
+            ><i class="fa-brands fa-whatsapp"></i> Agendar pelo WhatsApp</a
           >
-            <i class="fa-brands fa-whatsapp"></i> Agendar pelo WhatsApp
-          </a>
-          <a href="#servicos" class="btn btn--outline btn--lg">
-            Ver Tabela <i class="fa-solid fa-arrow-down"></i>
-          </a>
+          <a href="#servicos" class="btn btn--outline btn--lg">Ver Tabela</a>
         </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+          </div>
+          <div class="hero-stat">
+          </div>
+          <div class="hero-stat">
+          </div>
         </div>
       </div>
       <div class="hero-scroll">
@@ -121,7 +124,6 @@
 
     <!-- SOBRE -->
     <section class="section about" id="sobre">
-        </div>
         <div class="about-content">
           <span class="section-badge">Sobre Mim</span>
           <h2 class="section-title">
@@ -134,8 +136,9 @@
           </p>
           <p class="about-text">
             Trabalho com as técnicas mais modernas do mercado, incluindo Volume
-            Brasileiro, Luxo, Power e Egípcio, utilizando materiais de alta
-            qualidade e hipoalergênicos.
+            Brasileiro, Luxo, Power, Egípcio e agora também Design de
+            Sobrancelhas, utilizando materiais de alta qualidade e
+            hipoalergênicos.
           </p>
           <div class="about-features">
             <div class="about-feature">
@@ -171,7 +174,7 @@
       </div>
     </section>
 
-    <!-- SERVIÇOS - TABELA DE PREÇOS -->
+    <!-- CÍLIOS -->
     <section class="section services" id="servicos">
       <div class="container">
         <div class="section-header center">
@@ -186,14 +189,13 @@
           </p>
         </div>
 
-        <!-- ALONGAMENTOS -->
         <div class="pricing-section">
           <h3 class="pricing-category">
-            <i class="fa-solid fa-sparkles"></i> Alongamentos
+            <i class="fa-solid fa-sparkles"></i> Alongamentos de Cílios
           </h3>
           <div class="services-grid">
             <!-- Volume Brasileiro -->
-            <div class="service-card" data-aos="fade-up">
+            <div class="service-card">
               <div class="service-card-icon">
                 <i class="fa-solid fa-feather"></i>
               </div>
@@ -205,150 +207,169 @@
               <ul class="service-card-features">
                 <li><i class="fa-solid fa-check"></i> Duração: 1h30 a 2h</li>
                 <li><i class="fa-solid fa-check"></i> Retorno: 15 a 20 dias</li>
-                <li><i class="fa-solid fa-check"></i> Resultado natural</li>
               </ul>
               <div class="service-card-price">
-                <span class="service-card-price-label">Investimento</span>
-                <span class="service-card-price-value">R$ 120</span>
+                <span class="service-card-price-label">Investimento</span
+                ><span class="service-card-price-value">R$ 120</span>
               </div>
               <a
-                href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Quero%20agendar%20Volume%20Brasileiro%20%F0%9F%92%95"
+                href="https://wa.me/5511954868172?text=Quero%20agendar%20Volume%20Brasileiro"
                 class="btn btn--card"
                 target="_blank"
-                ><i class="fa-brands fa-whatsapp"></i> Agendar Agora</a
+                ><i class="fa-brands fa-whatsapp"></i> Agendar</a
               >
             </div>
 
             <!-- Volume Luxo -->
-            <div class="service-card" data-aos="fade-up">
+            <div class="service-card">
               <div class="service-card-icon">
                 <i class="fa-solid fa-crown"></i>
               </div>
               <h3 class="service-card-title">Volume Luxo</h3>
               <p class="service-card-desc">
-                Uma extensão natural, mas que não passa despercebido
+                Uma extensão natural, mas que não passa despercebida.
               </p>
               <ul class="service-card-features">
                 <li><i class="fa-solid fa-check"></i> Duração: 1h30 a 2h</li>
                 <li><i class="fa-solid fa-check"></i> Retorno: 15 a 20 dias</li>
-                <li><i class="fa-solid fa-check"></i> Efeito volumoso</li>
               </ul>
               <div class="service-card-price">
-                <span class="service-card-price-label">Investimento</span>
-                <span class="service-card-price-value">R$ 130</span>
+                <span class="service-card-price-label">Investimento</span
+                ><span class="service-card-price-value">R$ 130</span>
               </div>
               <a
-                href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Quero%20agendar%20Volume%20Luxo%20%F0%9F%92%95"
+                href="https://wa.me/5511954868172?text=Quero%20agendar%20Volume%20Luxo"
                 class="btn btn--card"
                 target="_blank"
-                ><i class="fa-brands fa-whatsapp"></i> Agendar Agora</a
+                ><i class="fa-brands fa-whatsapp"></i> Agendar</a
               >
             </div>
 
             <!-- Volume Power -->
-            <div class="service-card service-card--featured" data-aos="fade-up">
+            <div class="service-card service-card--featured">
               <div class="service-card-badge">⭐ Popular</div>
               <div class="service-card-icon">
                 <i class="fa-solid fa-bolt"></i>
               </div>
               <h3 class="service-card-title">Volume Power</h3>
               <p class="service-card-desc">
-                Volumoso e impactante! Ideal para quem deseja um olhar
-                dramático e poderoso.
+                Volumoso e impactante! Ideal para quem deseja um olhar dramático
+                e poderoso.
               </p>
               <ul class="service-card-features">
                 <li><i class="fa-solid fa-check"></i> Duração: 1h30 a 2h</li>
                 <li><i class="fa-solid fa-check"></i> Retorno: 15 a 20 dias</li>
-                <li><i class="fa-solid fa-check"></i> Efeito dramático</li>
               </ul>
               <div class="service-card-price">
-                <span class="service-card-price-label">Investimento</span>
-                <span class="service-card-price-value">R$ 140</span>
+                <span class="service-card-price-label">Investimento</span
+                ><span class="service-card-price-value">R$ 140</span>
               </div>
               <a
-                href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Quero%20agendar%20Volume%20Power%20%F0%9F%92%95"
+                href="https://wa.me/5511954868172?text=Quero%20agendar%20Volume%20Power"
                 class="btn btn--gold btn--card"
                 target="_blank"
-                ><i class="fa-brands fa-whatsapp"></i> Agendar Agora</a
+                ><i class="fa-brands fa-whatsapp"></i> Agendar</a
               >
             </div>
 
             <!-- Volume Egípcio -->
-            <div class="service-card" data-aos="fade-up">
+            <div class="service-card">
               <div class="service-card-icon">
                 <i class="fa-solid fa-eye"></i>
               </div>
               <h3 class="service-card-title">Volume Egípcio</h3>
               <p class="service-card-desc">
-                Técnica que da volume ao canto externo, criando um olhar
-                felino, e bem volumoso
+                Técnica que dá volume ao canto externo, criando um olhar felino
+                e bem volumoso.
               </p>
               <ul class="service-card-features">
                 <li><i class="fa-solid fa-check"></i> Duração: 1h30 a 2h</li>
                 <li><i class="fa-solid fa-check"></i> Retorno: 15 a 20 dias</li>
-                <li><i class="fa-solid fa-check"></i> Efeito gatinho</li>
               </ul>
               <div class="service-card-price">
-                <span class="service-card-price-label">Investimento</span>
-                <span class="service-card-price-value">R$ 150</span>
+                <span class="service-card-price-label">Investimento</span
+                ><span class="service-card-price-value">R$ 150</span>
               </div>
               <a
-                href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Quero%20agendar%20Volume%20Eg%C3%ADpcio%20%F0%9F%92%95"
+                href="https://wa.me/5511954868172?text=Quero%20agendar%20Volume%20Eg%C3%ADpcio"
                 class="btn btn--card"
                 target="_blank"
-                ><i class="fa-brands fa-whatsapp"></i> Agendar Agora</a
+                ><i class="fa-brands fa-whatsapp"></i> Agendar</a
+              >
+            </div>
+
+            <!-- NOVO: Efeito Fox -->
+            <div class="service-card">
+              <div class="service-card-icon">
+                <i class="fa-solid fa-cat"></i>
+              </div>
+              <h3 class="service-card-title">Efeito Fox</h3>
+              <p class="service-card-desc">
+                Alongamento intenso no canto externo para um olhar marcante e
+                sensual.
+              </p>
+              <ul class="service-card-features">
+                <li><i class="fa-solid fa-check"></i> Duração: 2h</li>
+                <li><i class="fa-solid fa-check"></i> Retorno: 15 a 20 dias</li>
+              </ul>
+              <div class="service-card-price">
+                <span class="service-card-price-label">Investimento</span
+                ><span class="service-card-price-value">R$ 170</span>
+              </div>
+              <a
+                href="https://wa.me/5511954868172?text=Quero%20agendar%20Efeito%20Fox"
+                class="btn btn--card"
+                target="_blank"
+                ><i class="fa-brands fa-whatsapp"></i> Agendar</a
               >
             </div>
           </div>
         </div>
 
-        <!-- MANUTENÇÕES -->
+        <!-- MANUTENÇÕES CÍLIOS -->
         <div class="pricing-section">
           <h3 class="pricing-category">
-            <i class="fa-solid fa-rotate"></i> Manutenções
+            <i class="fa-solid fa-rotate"></i> Manutenções de Cílios
           </h3>
           <p class="pricing-note">
             * Manter seus cílios sempre impecáveis com retoques regulares
           </p>
           <div class="maintenance-grid">
             <div class="maintenance-card">
-              <h4>Volume Brasileiro</h4>
-              <span class="maintenance-price">R$ 90</span>
-              <a
-                href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Quero%20agendar%20manuten%C3%A7%C3%A3o%20Volume%20Brasileiro%20%F0%9F%92%95"
+              <h4>Brasileiro</h4>
+              <span class="maintenance-price">R$ 90</span
+              ><a
+                href="https://wa.me/5511954868172?text=Manuten%C3%A7%C3%A3o%20Brasileiro"
                 class="btn-maintenance"
                 target="_blank"
                 >Agendar</a
               >
             </div>
-
             <div class="maintenance-card">
-              <h4>Volume Luxo</h4>
-              <span class="maintenance-price">R$ 90</span>
-              <a
-                href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Quero%20agendar%20manuten%C3%A7%C3%A3o%20Volume%20Luxo%20%F0%9F%92%95"
+              <h4>Luxo</h4>
+              <span class="maintenance-price">R$ 90</span
+              ><a
+                href="https://wa.me/5511954868172?text=Manuten%C3%A7%C3%A3o%20Luxo"
                 class="btn-maintenance"
                 target="_blank"
                 >Agendar</a
               >
             </div>
-
             <div class="maintenance-card">
-              <h4>Volume Power</h4>
-              <span class="maintenance-price">R$ 90</span>
-              <a
-                href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Quero%20agendar%20manuten%C3%A7%C3%A3o%20Volume%20Power%20%F0%9F%92%95"
+              <h4>Power</h4>
+              <span class="maintenance-price">R$ 90</span
+              ><a
+                href="https://wa.me/5511954868172?text=Manuten%C3%A7%C3%A3o%20Power"
                 class="btn-maintenance"
                 target="_blank"
                 >Agendar</a
               >
             </div>
-
             <div class="maintenance-card maintenance-card--highlight">
-              <h4>Volume Egípcio</h4>
-              <span class="maintenance-price">R$ 95</span>
-              <a
-                href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Quero%20agendar%20manuten%C3%A7%C3%A3o%20Volume%20Eg%C3%ADpcio%20%F0%9F%92%95"
+              <h4>Egípcio</h4>
+              <span class="maintenance-price">R$ 95</span
+              ><a
+                href="https://wa.me/5511954868172?text=Manuten%C3%A7%C3%A3o%20Eg%C3%ADpcio"
                 class="btn-maintenance"
                 target="_blank"
                 >Agendar</a
@@ -359,12 +380,94 @@
       </div>
     </section>
 
-    <!-- GALERIA -->
-   <!-- ========== GALERIA ========== -->
+    <!-- SOBRANCELHAS (NOVA SEÇÃO) -->
+    <section class="section eyebrows" id="sobrancelhas">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-badge">Sobrancelhas</span>
+          <h2 class="section-title">
+            Realce seu <span class="highlight">olhar completo</span>
+          </h2>
+          <p class="section-description">
+            Design e tratamento especializado para sobrancelhas perfeitas.
+          </p>
+        </div>
+
+        <div class="services-grid brows-grid">
+          <!-- Brow Lamination -->
+          <div class="service-card brow-card">
+            <div class="service-card-icon">
+              <i class="fa-solid fa-feather-pointed"></i>
+            </div>
+            <h3 class="service-card-title">Brow Lamination</h3>
+            <p class="service-card-desc">
+              Alinhamento dos fios para um visual organizado, volumoso e
+              moderno.
+            </p>
+            <div class="service-card-price">
+              <span class="service-card-price-label">Investimento</span
+              ><span class="service-card-price-value">R$ 100</span>
+            </div>
+            <a
+              href="https://wa.me/5511954868172?text=Quero%20agendar%20Brow%20Lamination"
+              class="btn btn--card"
+              target="_blank"
+              ><i class="fa-brands fa-whatsapp"></i> Agendar</a
+            >
+          </div>
+
+          <!-- Design com Henna -->
+          <div class="service-card brow-card service-card--featured">
+            <div class="service-card-badge">⭐ Destaque</div>
+            <div class="service-card-icon">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <h3 class="service-card-title">Design com Henna</h3>
+            <p class="service-card-desc">
+              Modelagem com henna para efeito preenchido, definido e duradouro.
+            </p>
+            <div class="service-card-price">
+              <span class="service-card-price-label">Investimento</span
+              ><span class="service-card-price-value">R$ 50</span>
+            </div>
+            <a
+              href="https://wa.me/5511954868172?text=Quero%20agendar%20Design%20com%20Henna"
+              class="btn btn--gold btn--card"
+              target="_blank"
+              ><i class="fa-brands fa-whatsapp"></i> Agendar</a
+            >
+          </div>
+
+          <!-- Design Simples -->
+          <div class="service-card brow-card">
+            <div class="service-card-icon">
+              <i class="fa-solid fa-pencil"></i>
+            </div>
+            <h3 class="service-card-title">Design Simples</h3>
+            <p class="service-card-desc">
+              Limpeza e modelagem básica para alinhar o olhar e valorizar o
+              rosto.
+            </p>
+            <div class="service-card-price">
+              <span class="service-card-price-label">Investimento</span
+              ><span class="service-card-price-value">R$ 25</span>
+            </div>
+            <a
+              href="https://wa.me/5511954868172?text=Quero%20agendar%20Design%20Simples"
+              class="btn btn--card"
+              target="_blank"
+              ><i class="fa-brands fa-whatsapp"></i> Agendar</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIA DE CÍLIOS -->
 <section class="section gallery" id="galeria">
   <div class="container">
     <div class="section-header center">
-      <span class="section-badge">Galeria</span>
+      <span class="section-badge">Galeria de Cílios</span>
       <h2 class="section-title">Resultados que <span class="highlight">encantam</span></h2>
       <p class="section-description">
         Confira alguns dos trabalhos realizados no estúdio. Cada foto representa
@@ -373,38 +476,37 @@
     </div>
 
     <div class="gallery-grid">
-      <!-- Foto 1 -->
-      <div class="gallery-item">
-        <img src="pictures/WhatsApp Image 2026-05-18 at 22.11.26.jpeg" alt="Volume Brasileiro - Olhar natural e elegante" class="gallery-image" loading="lazy">
+      <!-- Foto 1 (Larga) -->
+      <div class="gallery-item gallery-item--wide">
+        <img src="pictures/WhatsApp Image 2026-07-13 at 17.42.01.jpeg" alt="Volume Brasileiro" class="gallery-image" loading="lazy">
       </div>
 
-      <!-- Foto 2 (largura dupla) -->
-      <div class="gallery-item gallery-item--wide">
-        <img src="pictures/WhatsApp Image 2026-05-18 at 22.12.12.jpeg" alt="Volume Luxo - Mais densidade e sofisticação" class="gallery-image" loading="lazy">
+      <!-- Foto 2 -->
+      <div class="gallery-item">
+        <img src="pictures/WhatsApp Image 2026-05-18 at 22.14.24.jpeg" alt="Volume Luxo" class="gallery-image" loading="lazy">
       </div>
 
       <!-- Foto 3 -->
       <div class="gallery-item">
-        <img src="pictures/WhatsApp Image 2026-05-18 at 22.12.42.jpeg" alt="Volume Power - Olhar dramático e marcante" class="gallery-image" loading="lazy">
+        <img src="pictures/WhatsApp Image 2026-05-18 at 22.13.00.jpeg" alt="Volume Power" class="gallery-image" loading="lazy">
       </div>
 
-      <!-- Foto 4 (largura dupla) -->
+      <!-- Foto 4 (Larga) -->
       <div class="gallery-item gallery-item--wide">
-        <img src="pictures/WhatsApp Image 2026-05-18 at 22.13.00.jpeg" alt="Volume Egípcio - Efeito gatinho alongado" class="gallery-image" loading="lazy">
+        <img src="pictures/WhatsApp Image 2026-05-18 at 22.12.42.jpeg" alt="Volume Egípcio" class="gallery-image" loading="lazy">
       </div>
 
       <!-- Foto 5 -->
       <div class="gallery-item">
-        <img src="pictures/WhatsApp Image 2026-05-18 at 22.13.41.jpeg" alt="Manutenção - Cílios sempre impecáveis" class="gallery-image" loading="lazy">
+        <img src="pictures/WhatsApp Image 2026-05-18 at 22.11.26.jpeg" alt="Manutenção" class="gallery-image" loading="lazy">
       </div>
 
       <!-- Foto 6 -->
       <div class="gallery-item">
-        <img src="pictures/WhatsApp Image 2026-05-18 at 22.14.24.jpeg" alt="Detalhe - Aplicação precisa e delicada" class="gallery-image" loading="lazy">
+        <img src="pictures/WhatsApp Image 2026-05-18 at 22.12.12.jpeg" alt="Detalhe" class="gallery-image" loading="lazy">
       </div>
     </div>
 
-    <!-- Botão para ver mais no Instagram -->
     <div class="gallery-cta">
       <a href="https://instagram.com/jhenifferlashh" target="_blank" rel="noopener" class="btn btn--outline">
         <i class="fa-brands fa-instagram"></i> Ver mais no Instagram
@@ -412,6 +514,38 @@
     </div>
   </div>
 </section>
+
+    <!-- GALERIA DE SOBRANCELHAS (NOVA) -->
+    <section class="section gallery-brows">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-badge">Galeria de Sobrancelhas</span>
+          <h2 class="section-title">Design Impecável</h2>
+        </div>
+        <div class="gallery-grid brows-gallery">
+          <!-- Foto 1: Brow Lamination -->
+          <div class="gallery-item gallery-item--wide">
+            <img
+              src="/pictures/WhatsApp Image 2026-07-13 at 17.42.01 (1).jpeg"
+              alt="Brow Lamination - Alinhamento perfeito dos fios"
+              class="gallery-image"
+              loading="lazy"
+            />
+            <div class="gallery-caption">Brow Lamination</div>
+          </div>
+          <!-- Foto 2: Design com Henna -->
+          <div class="gallery-item gallery-item--wide">
+            <img
+              src="/pictures/WhatsApp Image 2026-07-13 at 17.42.01 (2).jpeg"
+              alt="Design com Henna - Preenchimento e definição"
+              class="gallery-image"
+              loading="lazy"
+            />
+            <div class="gallery-caption">Design com Henna</div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- DEPOIMENTOS -->
     <section class="section testimonials" id="depoimentos">
@@ -547,9 +681,7 @@
               <span>Qual a forma de pagamento?</span
               ><i class="fa-solid fa-chevron-down"></i>
             </button>
-            <div class="faq-answer">
-              <p>Aceitamos PIX e dinheiro</p>
-            </div>
+            <div class="faq-answer"><p>Aceitamos PIX e dinheiro.</p></div>
           </div>
         </div>
       </div>
@@ -573,9 +705,7 @@
                 <i class="fa-brands fa-whatsapp"></i>
                 <div>
                   <h4>WhatsApp</h4>
-                  <a href="https://wa.me/5511954868172" target="_blank"
-                    >(11) 95486-8172</a
-                  >
+                  <a href="https://wa.me/5511954868172">(11) 95486-8172</a>
                 </div>
               </div>
               <div class="contact-item">
@@ -606,25 +736,14 @@
               href="https://wa.me/5511954868172?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20%F0%9F%92%95"
               class="btn btn--gold btn--lg"
               target="_blank"
-              rel="noopener"
               ><i class="fa-brands fa-whatsapp"></i> Agendar pelo WhatsApp</a
             >
           </div>
           <div class="contact-map">
             <div class="map-placeholder">
               <i class="fa-solid fa-map-location-dot"></i
-
-              ><small
-                ><iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.0356840519776!2d-46.7581570305032!3d-23.599213369727135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce55cee13be6ef%3A0xb71d3e342af5b12!2sjaqueline!5e0!3m2!1spt-BR!2sbr!4v1779149402512!5m2!1spt-BR!2sbr"
-                  width="600"
-                  height="450"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe
-              ></small>
+              ><span>Insira aqui o Google Maps</span
+              ><small>Substitua pelo iframe do Google Maps</small>
             </div>
           </div>
         </div>
@@ -639,7 +758,7 @@
             <span class="logo-icon">JS</span>
             <div class="logo-text">
               <span class="logo-name">Jheniffer</span
-              ><span class="logo-sub">Lash Designer</span>
+              ><span class="logo-sub">Lash & Brow</span>
             </div>
           </div>
           <p class="footer-tagline">
@@ -664,8 +783,7 @@
         </div>
         <div class="footer-bottom">
           <p>
-            &copy; 2026 Jheniffer Lash Designer. Todos os direitos
-            reservados.
+            &copy; 2026 Jheniffer Lash Designer. Todos os direitos reservados.
           </p>
           <p class="footer-credit">
             Feito com <i class="fa-solid fa-heart"></i> para realçar olhares
@@ -673,7 +791,8 @@
         </div>
       </div>
     </footer>
-  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
